@@ -1,0 +1,1396 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>4.1. More Complex Conditions · Programming Basics with Java</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        <meta name="identifier" content="978-619-00-1402-7" scheme="ISBN">
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chapter-04-complex-conditions-exam-problems.html" />
+    
+    
+    <link rel="prev" href="chapter-03-simple-conditions-exam-problems.html" />
+    
+
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Book "Programming Basics" with Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter-00-preface.html">
+            
+                <a href="chapter-00-preface.html">
+            
+                    
+                    Preface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter-01-first-steps-in-programming.html">
+            
+                <a href="chapter-01-first-steps-in-programming.html">
+            
+                    
+                    1. First Steps in Programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="chapter-02-simple-calculations.html">
+            
+                <a href="chapter-02-simple-calculations.html">
+            
+                    
+                    2.1. Simple Calculations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="chapter-02-simple-calculations-exam-problems.html">
+            
+                <a href="chapter-02-simple-calculations-exam-problems.html">
+            
+                    
+                    2.2. Simple Calculations – Exam Problems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="chapter-03-simple-conditions.html">
+            
+                <a href="chapter-03-simple-conditions.html">
+            
+                    
+                    3.1. Simple Conditions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="chapter-03-simple-conditions-exam-problems.html">
+            
+                <a href="chapter-03-simple-conditions-exam-problems.html">
+            
+                    
+                    3.2. Simple Conditions – Exam Problems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="chapter-04-complex-conditions.html">
+            
+                <a href="chapter-04-complex-conditions.html">
+            
+                    
+                    4.1. More Complex Conditions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="chapter-04-complex-conditions-exam-problems.html">
+            
+                <a href="chapter-04-complex-conditions-exam-problems.html">
+            
+                    
+                    4.2. More Complex Conditions – Exam Problems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="chapter-05-loops.html">
+            
+                <a href="chapter-05-loops.html">
+            
+                    
+                    5.1. Loops
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="chapter-05-loops-exam-problems.html">
+            
+                <a href="chapter-05-loops-exam-problems.html">
+            
+                    
+                    5.2. Loops - Exam Problems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="chapter-06-nested-loops.html">
+            
+                <a href="chapter-06-nested-loops.html">
+            
+                    
+                    6.1. Nested Loops
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="chapter-06-nested-loops-exam-problems.html">
+            
+                <a href="chapter-06-nested-loops-exam-problems.html">
+            
+                    
+                    6.2. Nested Loops – Exam Problems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="chapter-07-complex-loops.html">
+            
+                <a href="chapter-07-complex-loops.html">
+            
+                    
+                    7.1. More Complex Loops
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="chapter-07-complex-loops-exam-problems.html">
+            
+                <a href="chapter-07-complex-loops-exam-problems.html">
+            
+                    
+                    7.2. More Complex Loops – Exam Problems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="chapter-08-exam-preparation.html">
+            
+                <a href="chapter-08-exam-preparation.html">
+            
+                    
+                    8.1. Practical Exam Preparation – Part I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="chapter-08-exam-preparation-part-2.html">
+            
+                <a href="chapter-08-exam-preparation-part-2.html">
+            
+                    
+                    8.2. Practical Exam Preparation – Part II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="chapter-09-problems-for-champions.html">
+            
+                <a href="chapter-09-problems-for-champions.html">
+            
+                    
+                    9.1. Problems for Champions – Part I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="chapter-09-problems-for-champions-part-2.html">
+            
+                <a href="chapter-09-problems-for-champions-part-2.html">
+            
+                    
+                    9.2. Problems for Champions – Part II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="chapter-10-methods.html">
+            
+                <a href="chapter-10-methods.html">
+            
+                    
+                    10. Methods
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="chapter-11-tricks-and-hacks.html">
+            
+                <a href="chapter-11-tricks-and-hacks.html">
+            
+                    
+                    11. Tricks and Hacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="chapter-12-conclusion.html">
+            
+                <a href="chapter-12-conclusion.html">
+            
+                    
+                    Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <a target="_blank" href="https://softuni.org">
+            
+                    
+                    🎓 SoftUni Global
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <a target="_blank" href="https://softuni.org/learn">
+            
+                    
+                    👨🏼‍💻 Learn Programming @ SoftUni Global
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" >
+            
+                <a target="_blank" href="https://www.youtube.com/c/CodeWithNakov">
+            
+                    
+                    ▶️ SoftUni Global @ YouTube
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" >
+            
+                <a target="_blank" href="https://introprogramming.info">
+            
+                    
+                    📚 Nakov's Books
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >4.1. More Complex Conditions</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="chapter-41-more-complex-conditions"><a name="chapter-41-more-complex-conditions" class="plugin-anchor" href="#chapter-41-more-complex-conditions"><i class="fa fa-link" aria-hidden="true"></i></a>Chapter 4.1. More Complex Conditions</h1>
+<p>In the <strong>current</strong> chapter, we are going to examine the <strong>nested conditional statements</strong> in the <strong>Java</strong> language, by which our program can contain <strong>conditions</strong> that contain other <strong>nested conditional statements</strong>. We call them <strong>&quot;nested&quot;</strong> because <strong>we put an </strong><code>if</code><strong> condition</strong> into <strong>another </strong><code>if</code><strong> condition</strong>. We are going to examine the <strong>more complex logical conditions</strong> through proper examples.</p>
+<h2 id="video"><a name="video" class="plugin-anchor" href="#video"><i class="fa fa-link" aria-hidden="true"></i></a>Video</h2>
+<div class="video-player">
+  Watch the video lesson about what we will learn in this chapter: <a target="_blank" href="https://www.youtube.com/watch?v=L4KtlGD5cbk">https://www.youtube.com/watch?v=L4KtlGD5cbk</a>.
+</div>
+
+<h2 id="nested-conditions"><a name="nested-conditions" class="plugin-anchor" href="#nested-conditions"><i class="fa fa-link" aria-hidden="true"></i></a>Nested Conditions</h2>
+<p>Pretty often the program logic requires the use of <strong><code>if</code></strong> or <strong><code>if-else</code></strong> statements, which are contained one inside another. They are called <strong>nested</strong> <strong><code>if</code></strong> or <strong><code>if-else</code></strong> statements. As implied by the title <strong>&quot;nested&quot;</strong>, these are <strong><code>if</code></strong> or <strong><code>if-else</code></strong> statements that are placed inside other <strong><code>if</code></strong> or <strong><code>else</code></strong> statements.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">if</span> (condition1) {
+    <span class="hljs-keyword">if</span> (condition2) {
+    <span class="hljs-comment">// body; </span>
+    } <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// body;</span>
+    }
+}
+</code></pre>
+<p>Nesting of*more than three conditional statements inside each other is not considered a good practice and has to be avoided, mostly through optimization of the structure/the algorithm of the code and/or by using another type of conditional statement, which we are going to examine below in this chapter.</p>
+<h3 id="problem-personal-titles"><a name="problem-personal-titles" class="plugin-anchor" href="#problem-personal-titles"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Personal Titles</h3>
+<p>Depending on <strong>age</strong> (decimal number and <strong>gender</strong> (<strong>m</strong> / <strong>f</strong>), print a personal title:</p>
+<ul>
+<li>&#x201C;<strong>Mr.</strong>&#x201D; &#x2013; a man (gender &#x201C;<strong>m</strong>&#x201D;) &#x2013; 16 or more years old.</li>
+<li>&#x201C;<strong>Master</strong>&#x201D; &#x2013; a boy (gender &#x201C;<strong>m</strong>&#x201D;) under 16 years.</li>
+<li>&#x201C;<strong>Ms.</strong>&#x201D; &#x2013; a woman (gender &#x201C;<strong>f</strong>&#x201D;) &#x2013; 16 or more years old.</li>
+<li>&#x201C;<strong>Miss</strong>&#x201D; &#x2013; a girl (gender &#x201C;<strong>f</strong>&#x201D;) under 16 years.</li>
+</ul>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12<br>f</td>
+<td>Miss</td>
+<td>17<br>m</td>
+<td>Mr.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>25<br>f</td>
+<td>Ms.</td>
+<td>13.5<br>m</td>
+<td>Master</td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p>We should notice that the <strong>output</strong> of the program <strong>depends on a few things</strong>. <strong>First</strong>, we have to check what is the entered <strong>gender</strong> and <strong>then</strong> check the <strong>age</strong>. Respectively, we are going to use <strong>a few</strong> <strong><code>if-else</code></strong> blocks. These blocks will be <strong>nested</strong>, meaning from <strong>the result</strong> of the first, we are going to <strong>define</strong> which one of the <strong>others</strong> to execute.</p>
+<p><img src="assets/chapter-4-1-images/01.Personal-titles-01.jpg" alt=""></p>
+<p>After <strong>reading the input data from the console</strong>, the following <strong>program logic</strong> should be executed:</p>
+<p><img src="assets/chapter-4-1-images/01.Personal-titles-02.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#0" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#0</a>.</p>
+<h3 id="problem-small-shop"><a name="problem-small-shop" class="plugin-anchor" href="#problem-small-shop"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Small Shop</h3>
+<p>A Bulgarian entrepreneur opens <strong>small shops</strong> in <strong>a few cities</strong> with different <strong>prices</strong> for the following <strong>products</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">product / city</th>
+<th style="text-align:center">Sofia</th>
+<th style="text-align:center">Plovdiv</th>
+<th style="text-align:center">Varna</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">coffee<br>water<br>beer<br>sweets<br>peanuts</td>
+<td style="text-align:center">0.50<br>0.80<br>1.20<br>1.45<br>1.60<br></td>
+<td style="text-align:center">0.40<br>0.70<br>1.15<br>1.30<br>1.50<br></td>
+<td style="text-align:center">0.45<br>0.70<br>1.10<br>1.35<br>1.55</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate the price by the given <strong>city</strong> (string), <strong>product</strong> (string), and <strong>quantity</strong> (double).</p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>coffee<br>Varna<br>2</td>
+<td>0.9</td>
+<td>peanuts<br>Plovidv<br>1</td>
+<td>1.5</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>beer<br>Sofia<br>6</td>
+<td>7.2</td>
+<td>water<br>Plovdiv<br>3</td>
+<td>2.1</td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p>We <strong>convert</strong> all of the letters into <strong>lower register</strong> using the function <strong><code>.toLowerCase()</code></strong>, to compare products and cities <strong>no matter</strong> what the letters are &#x2013; small or capital ones.</p>
+<p><img src="assets/chapter-4-1-images/02.Small-shop-01.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#1" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#1</a>.</p>
+<h2 id="more-complex-conditions"><a name="more-complex-conditions" class="plugin-anchor" href="#more-complex-conditions"><i class="fa fa-link" aria-hidden="true"></i></a>More Complex Conditions</h2>
+<p>Let&apos;s take a look at how we can create more complex logical conditions. We can use the logical &quot;<strong>AND</strong>&quot; (<strong><code>&amp;&amp;</code></strong>), logical &quot;<strong>OR</strong>&quot; (<strong><code>||</code></strong>), logical <strong>negation</strong> (<strong><code>!</code></strong>) and <strong>brackets</strong> (<strong><code>()</code></strong>).</p>
+<h3 id="logical-and"><a name="logical-and" class="plugin-anchor" href="#logical-and"><i class="fa fa-link" aria-hidden="true"></i></a>Logical <code>AND</code></h3>
+<p>As we saw, in some problems we have to make <strong>many checks at once</strong>. But what happens when to execute some code <strong>more</strong> conditions have to be executed and we <strong>don&apos;t want to</strong> make a <strong>negation</strong> (<strong><code>else</code></strong>) for each one of them? The option with nested <strong><code>if</code> blocks</strong> are valid, but the code would look very <strong>unordered</strong> and for sure &#x2013; <strong>hard</strong> to read and maintain.</p>
+<p>The logical &quot;<strong>AND</strong>&quot; (operator <strong><code>&amp;&amp;</code></strong>) means a few conditions have to be <strong>fulfilled simultaneously</strong>. The following table of truthfulness is applicable:</p>
+<table>
+<thead>
+<tr>
+<th>a</th>
+<th>b</th>
+<th>a &amp;&amp; b</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>true<br>true<br>false<br>false</td>
+<td>true<br>false<br>true<br>false</td>
+<td>true<br>false<br>false<br>false</td>
+</tr>
+</tbody>
+</table>
+<h3 id="how-does-the--operator-work"><a name="how-does-the--operator-work" class="plugin-anchor" href="#how-does-the--operator-work"><i class="fa fa-link" aria-hidden="true"></i></a>How Does The &amp;&amp; Operator Work?</h3>
+<p>The <strong><code>&amp;&amp;</code></strong> operator accepts <strong>a couple of Boolean</strong> (conditional) statements, which have a <strong><code>true</code></strong> or <strong><code>false</code></strong> value, and returns <strong>one</strong> bool statement as a <strong>result</strong>. Using it <strong>instead</strong> of a couple of nested <strong><code>if</code></strong> blocks, makes the code <strong>more readable</strong>, <strong>ordered</strong>, and <strong>easy</strong> to maintain. But how does it <strong>work</strong>, when we put a <strong>few</strong> conditions one after another? As we saw above, the logical <strong>&quot;AND&quot;</strong> returns <strong><code>true</code></strong>, <strong>only</strong> when it accepts as <strong>arguments statements</strong> with the value <strong><code>true</code></strong>. Respectively, when we have a <strong>sequence</strong> of arguments, the logical &quot;AND&quot; <strong>checks</strong> either until one of the arguments is <strong>over</strong>, or until it <strong>meets</strong> an argument with value <strong><code>false</code></strong>. </p>
+<p><strong>Example</strong>:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">boolean</span> a = <span class="hljs-keyword">true</span>;
+<span class="hljs-keyword">boolean</span> b = <span class="hljs-keyword">true</span>;
+<span class="hljs-keyword">boolean</span> c = <span class="hljs-keyword">false</span>;
+<span class="hljs-keyword">boolean</span> d = <span class="hljs-keyword">true</span>;
+<span class="hljs-keyword">boolean</span> result = a &amp;&amp; b &amp;&amp; c &amp;&amp; d;
+<span class="hljs-comment">// false (as d is not being checked)</span>
+</code></pre>
+<p>The program will run in the <strong>following</strong> way: <strong>It starts</strong> the check form <strong><code>a</code></strong>, <strong>reads</strong> it, and accepts that it has a <strong><code>true</code></strong> value, after which it <strong>checks</strong> <strong><code>b</code></strong>. After it has <strong>accepted</strong> that <strong><code>a</code></strong> and <strong><code>b</code></strong> return <strong><code>true</code></strong>, <strong>it checks the next</strong> argument. It gets to <strong><code>c</code></strong> and sees that the variable has a <strong><code>false</code></strong> value. After the program accepts that argument <strong><code>c</code></strong> has a <strong><code>false</code></strong> value, it calculates the expression <strong>before <code>c</code></strong>, <strong>independent</strong> of what the value of <strong><code>d</code></strong> is. That is why the evaluation of <strong><code>d</code></strong> is being <strong>skipped</strong> and the whole expression is calculated as <strong><code>false</code></strong>.</p>
+<p><img src="assets/chapter-4-1-images/00.Logical-and-01.png" alt=""></p>
+<h3 id="problem-point-in-rectangle"><a name="problem-point-in-rectangle" class="plugin-anchor" href="#problem-point-in-rectangle"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Point in Rectangle</h3>
+<p>Checks whether <strong>point {x, y}</strong> is placed <strong>inside the rectangle {x1, y1} &#x2013; {x2, y2}</strong>. The input data is read from the console and consists of 6 lines: the decimal numbers <strong>x1</strong>, <strong>y1</strong>, <strong>x2</strong>, <strong>y2</strong>, <strong>x</strong> and <strong>y</strong> (as it is guaranteed that <strong>x1 &lt; x2</strong> and <strong>y1 &lt; y2</strong>).</p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th style="text-align:center">Visualization</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2<br>-3<br>12<br>3<br>8<br>-1</td>
+<td>Inside</td>
+<td style="text-align:center"><img src="assets/chapter-4-1-images/03.Point-in-rectangle-01.png" alt="shop"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p>A point is internal for a given polygon if the following four conditions are applied <strong>at the same time</strong>:</p>
+<ul>
+<li>The point is placed to the right from the left side of the rectangle.</li>
+<li>The point is placed to the left from the right side of the rectangle.</li>
+<li>The point is placed downwards from the upper side of the rectangle.</li>
+<li>The point is placed upwards from the down side of the rectangle.</li>
+</ul>
+<p><img src="assets/chapter-4-1-images/03.Point-in-rectangle-02.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#2" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#2</a>.</p>
+<h2 id="logical-or"><a name="logical-or" class="plugin-anchor" href="#logical-or"><i class="fa fa-link" aria-hidden="true"></i></a>Logical &quot;OR&quot;</h2>
+<p>The logical <strong>&quot;OR&quot;</strong> (operator <strong><code>||</code></strong>) means that <strong>at least one</strong> among a few conditions is fulfilled. Similar to the operator <strong><code>&amp;&amp;</code></strong>, the logical <strong>&quot;OR&quot;</strong> accepts a few arguments of <strong>bool</strong> (conditional) type and returns <strong><code>true</code></strong> or <strong><code>false</code></strong>. We can easily guess that we <strong>obtain</strong> a value <strong><code>true</code></strong> whenever at least <strong>one</strong> of the arguments has a <strong><code>true</code></strong> value. This is shown at the truth table below:</p>
+<p>In school, the teacher said: &quot;Ivan or Peter should clean the board&quot;. For completing this condition (the board to be clean), it&apos;s possible only Ivan to clean it, only Peter to clean it, or both of them to do it. </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">a</th>
+<th style="text-align:center">b</th>
+<th style="text-align:center">a || b</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">true<br>true<br>false<br>false</td>
+<td style="text-align:center">true<br>false<br>true<br>false</td>
+<td style="text-align:center">true<br>true<br>true<br>false</td>
+</tr>
+</tbody>
+</table>
+<h3 id="how-does-the--operator-work"><a name="how-does-the--operator-work" class="plugin-anchor" href="#how-does-the--operator-work"><i class="fa fa-link" aria-hidden="true"></i></a>How Does The || Operator Work?</h3>
+<p>We have already learned what the logical <strong>&quot;OR&quot; represents</strong>. But how is it being achieved? Just like with the logical <strong>&quot;AND&quot;</strong>, the program <strong>checks</strong> from left to right <strong>the arguments</strong> that are given. To obtain <strong><code>true</code></strong> from the expression, <strong>just one</strong> argument must have a <strong><code>true</code></strong> value. Respectively, the checking <strong>continues</strong> until an <strong>argument</strong> with <strong>such</strong> value is met or until the arguments <strong>are over</strong>.</p>
+<p>Here is one <strong>example</strong> of the <strong><code>||</code></strong> operator in action:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">boolean</span> a = <span class="hljs-keyword">false</span>;
+<span class="hljs-keyword">boolean</span> b = <span class="hljs-keyword">true</span>;
+<span class="hljs-keyword">boolean</span> c = <span class="hljs-keyword">false</span>;
+<span class="hljs-keyword">boolean</span> d = <span class="hljs-keyword">true</span>;
+<span class="hljs-keyword">boolean</span> result = a || b || c || d;
+<span class="hljs-comment">// true (as c and d are not being checked)</span>
+</code></pre>
+<p>The program <strong>checks <code>a</code></strong>, accepts that it has a value <strong><code>false</code></strong>, and continues. Reaching <strong><code>b</code></strong>, it understands that it has a <strong><code>true</code></strong> value and the whole <strong>expression</strong> is calculated as <strong><code>true</code></strong>, <strong>without</strong> having to check <strong><code>c</code></strong> or <strong><code>d</code></strong>, because their values <strong>wouldn&apos;t change</strong> the result of the expression.</p>
+<h3 id="problem-fruit-or-vegetable"><a name="problem-fruit-or-vegetable" class="plugin-anchor" href="#problem-fruit-or-vegetable"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Fruit or Vegetable</h3>
+<p>Let&apos;s check whether a given <strong>product</strong> is <strong>a fruit</strong> or <strong>a vegetable</strong>. The &quot;<strong>fruits</strong>&quot; are <strong>banana</strong>, <strong>apple</strong>, <strong>kiwi</strong>, <strong>cherry</strong>, <strong>lemon</strong> and <strong>grapes</strong>. The &quot;<strong>vegetables</strong>&quot; are <strong>tomato</strong>, <strong>cucumber</strong>, <strong>pepper</strong>, and <strong>carrot</strong>. Everything else is &quot;<strong>unknown</strong>&quot;.</p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>banana<br>tomato<br>java</td>
+<td>fruit<br>vegetable<br>unknown</td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p>We have to use a few conditional statements with logical &quot;<strong>OR</strong>&quot; (<strong><code>||</code></strong>):</p>
+<p><img src="assets/chapter-4-1-images/04.Fruit-or-vegetable-01.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#3" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#3</a>.</p>
+<h2 id="logical-negation"><a name="logical-negation" class="plugin-anchor" href="#logical-negation"><i class="fa fa-link" aria-hidden="true"></i></a>Logical Negation</h2>
+<p><strong>Logical negation</strong> (operator <strong><code>!</code></strong>) means that a given condition is <strong>not fulfilled</strong>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">a</th>
+<th style="text-align:center">!a</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">true</td>
+<td style="text-align:center">false</td>
+</tr>
+</tbody>
+</table>
+<p>The operator <strong><code>!</code></strong> accepts as an <strong>argument</strong> a bool variable and <strong>returns</strong> its value.</p>
+<h3 id="problem-invalid-number"><a name="problem-invalid-number" class="plugin-anchor" href="#problem-invalid-number"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Invalid Number</h3>
+<p>A given <strong>number is valid</strong> if it is in the range [<strong>100 &#x2026; 200</strong>] or it is <strong>0</strong>. Validate an <strong>invalid</strong> number.</p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>75</td>
+<td>invalid</td>
+</tr>
+<tr>
+<td>150</td>
+<td>(no output)</td>
+</tr>
+<tr>
+<td>220</td>
+<td>invalid</td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p><img src="assets/chapter-4-1-images/05.Invalid-number-01.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#4" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#4</a>.</p>
+<h2 id="the-parenthesis--operator"><a name="the-parenthesis--operator" class="plugin-anchor" href="#the-parenthesis--operator"><i class="fa fa-link" aria-hidden="true"></i></a>The Parenthesis <strong><code>()</code></strong> Operator</h2>
+<p>Like the rest of the operators in programming, the operators <strong><code>&amp;&amp;</code></strong> and <strong><code>||</code></strong> have a priority, as in the case <strong><code>&amp;&amp;</code></strong> is with higher priority than <strong><code>||</code></strong>. The operator <strong><code>()</code></strong> serves for <strong>changing the priority of operators</strong> and is being calculated first, just like in mathematics. Using parentheses also gives the code better readability and is considered a good practice. </p>
+<h2 id="more-complex-conditions---problems"><a name="more-complex-conditions---problems" class="plugin-anchor" href="#more-complex-conditions---problems"><i class="fa fa-link" aria-hidden="true"></i></a>More Complex Conditions - Problems</h2>
+<p>Sometimes the conditions may be <strong>very complex</strong>, so they can require a long bool expression or a sequence of conditions. Let&apos;s take a look at a few examples.</p>
+<h3 id="problem-point-on-rectangle-border"><a name="problem-point-on-rectangle-border" class="plugin-anchor" href="#problem-point-on-rectangle-border"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Point on Rectangle Border</h3>
+<p>Write a program that checks whether a <strong>point {x, y}</strong> is placed <strong>onto any of the sides of a rectangle {x1, y1} &#x2013; {x2, y2}</strong>. The input data is read from the console and consists of 6 lines: the decimal numbers <strong>x1</strong>, <strong>y1</strong>, <strong>x2</strong>, <strong>y2</strong>, <strong>x</strong>, and <strong>y</strong> (as it is guaranteed that <strong>x1 &lt; x2</strong> and <strong>y1 &lt; y2</strong>). Print &quot;<strong>Border</strong>&quot; (if the point lies on any of the sides) or &quot;<strong>Inside / Outside</strong>&quot; (in the opposite case).</p>
+<p><img src="assets/chapter-4-1-images/06.Point-on-rectangle-border-01.png" alt=""></p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2<br>-3<br>12<br>3<br>12<br>-1</td>
+<td>Border</td>
+<td>2<br>-3<br>12<br>3<br>8<br>-1</td>
+<td>Inside / Outside</td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p>The point lies on any of the sides of the rectangle if:</p>
+<ul>
+<li><strong>x</strong> coincides with <strong>x1</strong> or <strong>x2</strong> and at the same time <strong>y</strong> is between <strong>y1</strong> and <strong>y2</strong> or</li>
+<li><strong>y</strong> coincides with <strong>y1</strong> or <strong>y2</strong> and at the same time <strong>x</strong> is between <strong>x1</strong> and <strong>x2</strong>.</li>
+</ul>
+<p><img src="assets/chapter-4-1-images/06.Point-on-rectangle-border-02.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#5" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#5</a>.</p>
+<h3 id="problem-fruit-shop"><a name="problem-fruit-shop" class="plugin-anchor" href="#problem-fruit-shop"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Fruit Shop</h3>
+<p>A fruit shop during <strong>weekdays</strong> sells at the following <strong>prices</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Fruit</th>
+<th style="text-align:center">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">banana<br>apple<br>orange<br>grapefruit<br>kiwi<br>pineapple<br>grapes</td>
+<td style="text-align:center">2.50<br>1.20<br>0.85<br>1.45<br>2.70<br>5.50<br>3.85</td>
+</tr>
+</tbody>
+</table>
+<p>During the <strong>weekend days</strong> the prices are <strong>higher</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Fruit</th>
+<th style="text-align:center">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">banana<br>apple<br>orange<br>grapefruit<br>kiwi<br>pineapple<br>grapes</td>
+<td style="text-align:center">2.70<br>1.25<br>0.90<br>1.60<br>3.00<br>5.60<br>4.20</td>
+</tr>
+</tbody>
+</table>
+<p>Write a program that <strong>reads</strong> from the console a <strong>fruit</strong> (banana / apple / &#x2026;), <strong>a day of the week</strong> (Monday / Tuesday / &#x2026;) and <strong>a quantity (a decimal number)</strong> and <strong>calculates the price</strong> according to the prices from the tables above. The result has to be printed <strong>rounded up to 2 digits after the decimal point</strong>. Print <strong>&#x201C;error&#x201D;</strong> if it is an <strong>invalid day</strong> of the week or an <strong>invalid name</strong> of a fruit.</p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>orange<br>Sunday<br>3</td>
+<td>2.70</td>
+<td>kiwi<br>Monday<br>2.5</td>
+<td>6.75</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>grapes<br>Saturday<br>0.5</td>
+<td>2.10</td>
+<td>tomato<br>Monday<br>0.5</td>
+<td>error</td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p><img src="assets/chapter-4-1-images/07.Fruit-shop-01.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#6" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#6</a>.</p>
+<h3 id="problem-trade-comissions"><a name="problem-trade-comissions" class="plugin-anchor" href="#problem-trade-comissions"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Trade Comissions</h3>
+<p>A company is giving the following <strong>commissions</strong> to its traders according to the <strong>city</strong>, in which they are working and the <strong>volume of sales s</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">City</th>
+<th style="text-align:center">0 &lt;= s &lt;= 500</th>
+<th style="text-align:center">500 &lt; s &lt;= 1000</th>
+<th style="text-align:center">1000 &lt; s &lt;= 10000</th>
+<th style="text-align:center">s &gt; 10000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Sofia<br>Varna<br>Plovdiv</td>
+<td style="text-align:center">5%<br>4.5%<br>5.5%</td>
+<td style="text-align:center">7%<br>7.5%<br>8%</td>
+<td style="text-align:center">8%<br>10%<br>12%</td>
+<td style="text-align:center">12%<br>13%<br>14.5%</td>
+</tr>
+</tbody>
+</table>
+<p>Write a <strong>program</strong> that reads the name of a <strong>city</strong> (string) and the volume of <strong>sales</strong> (double) and calculates the rate of the commission fee. The result has to be shown rounded <strong>up to 2 digits after the decimal point</strong>. When there is an <strong>invalid city or volume of sales</strong> (a negative number), print &quot;<strong>error</strong>&quot;.</p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sofia<br>1500</td>
+<td>120.00</td>
+<td>Plovidv<br>499.99</td>
+<td>27.50</td>
+<td>Kaspichan<br>-50</td>
+<td>error</td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p>When reading the input, we could convert the city into small letters (with the function <strong><code>.toLowerCase()</code></strong>). Initially, we set the commission fee to <strong><code>-1</code></strong>. It will be changed if the city and the price range are found in the table of commissions.
+To calculate the commission according to the city and volume of sales, we need a few nested <strong><code>if</code> statements</strong>, as in the sample code below:</p>
+<p><img src="assets/chapter-4-1-images/08.Trade-comissions-01.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#7" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#7</a>.</p>
+<table><tr><td><img src="assets/alert-icon.png" style="max-width:50px"></td><td><b>It is a good practice</b> to use <b>blocks</b> that are <b>enclosed</b> with curly braces <b><code>{ }</code></b> after <b><code>if</code></b> and <b><code>else</code></b>. Also, it is recommended during writing to <b>move aside</b> the code <b>after <code>if</code> and <code>else</code></b> with a single tabulation <b>inward</b>, to make the code more easily readable.</td>
+</tr></table>
+
+<h2 id="switch-case-conditional-statement"><a name="switch-case-conditional-statement" class="plugin-anchor" href="#switch-case-conditional-statement"><i class="fa fa-link" aria-hidden="true"></i></a>Switch-Case Conditional Statement</h2>
+<p>The <strong><code>switch-case</code></strong> condition works as a sequence of <strong><code>if-else</code></strong> blocks. Whenever the work of our program depends on the value of <strong>one variable</strong>, instead of making consecutive conditions with <strong><code>if-else</code></strong> blocks, we can <strong>use</strong> the conditional <strong><code>switch</code></strong> statement. It is being used for <strong>choosing between a list of possibilities</strong>. The statement compares a given value with defined constants and depending on the result, it takes an action.</p>
+<p>We put <strong>the variable</strong> that we want to <strong>compare</strong>, inside the <strong>brackets after the operator <code>switch</code></strong> and it is called a &quot;<strong>selector</strong>&quot;. Here <strong>the type must be comparable</strong> (numbers, strings). <strong>Consecutively</strong>, the program starts <strong>comparing</strong> each <strong>value</strong> that <strong>is found</strong> after the <strong><code>case</code> labels</strong>. 
+Upon a match, the execution of the code from the respective place begins and continues until it reaches the operator <strong><code>break</code></strong>. In some programming languages (like C#) <strong><code>break</code></strong> is necessary for <strong>every <code>case</code></strong>, which contains a program logic. In <strong>Java</strong> though, the operator <strong><code>break</code></strong> can be skipped, until we get to the next <strong><code>break</code></strong> operator. Even though it is allowed by the language, it&apos;s never used and considered a <strong>bad practice</strong>, because it leads to <strong>collapsing</strong> of the program code. If there is <strong>missing</strong> a <strong>match</strong>, the <strong><code>default</code></strong> construction will run, if there is one.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">switch</span> (selector) {
+
+    <span class="hljs-keyword">case</span> value1:
+        construction;
+        <span class="hljs-keyword">break</span>;
+    <span class="hljs-keyword">case</span> value2:
+        construction;
+        <span class="hljs-keyword">break</span>;
+    <span class="hljs-keyword">case</span> value3:
+        construction;
+        <span class="hljs-keyword">break</span>;
+    &#x2026;
+    <span class="hljs-keyword">default</span>:
+        construction;
+        <span class="hljs-keyword">break</span>;
+}
+</code></pre>
+<h3 id="problem-day-of-the-week"><a name="problem-day-of-the-week" class="plugin-anchor" href="#problem-day-of-the-week"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Day of The Week</h3>
+<p>Let&apos;s write a program that prints <strong>the day of the week</strong> depending on the <strong>given number</strong> (1 &#x2026; 7) or &quot;<strong>Error!</strong>&quot; if invalid input is given.</p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1<br>7<br>-1</td>
+<td>Monday<br>Sunday<br>Error!</td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p><img src="assets/chapter-4-1-images/09.Day-of-week-01.png" alt=""></p>
+<table><tr><td><img src="assets/alert-icon.png" style="max-width:50px"></td>
+<td><b>It is a good practice</b> to put at the <b>first</b> place those <b><code>case</code> statements</b> that process <b>the most common situations</b> and leave the <b><code>case</code> constructions</b> processing <b>the more rear situations</b> at <b>the end, before the <code>default</code> construction</b>. Another <b>good practice</b> is to <b>arrange the <code>case</code> labels</b> in <b>ascending order</b>, regardless of whether they are integral or symbolic.</td>
+</tr></table>
+
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#8" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#8</a>.</p>
+<h3 id="multiple-labels-in-switch-cases"><a name="multiple-labels-in-switch-cases" class="plugin-anchor" href="#multiple-labels-in-switch-cases"><i class="fa fa-link" aria-hidden="true"></i></a>Multiple Labels in Switch-Cases</h3>
+<p>In <strong>Java</strong>, we can <strong>use multiple <code>case</code></strong> labels in the <strong><code>switch-case</code></strong> construction, when they have to execute <strong>the same code</strong>. This way, when our <strong>program</strong> finds a <strong>match</strong>, it will execute the <strong>next</strong> code, because <strong>after</strong> the respective <strong><code>case</code></strong> label <strong>there is no code</strong> for execution and a <strong><code>break</code></strong> operator.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">switch</span> (selector) {
+
+    <span class="hljs-keyword">case</span> value1:
+    <span class="hljs-keyword">case</span> value2:
+    <span class="hljs-keyword">case</span> value3:
+        construction;
+        <span class="hljs-keyword">break</span>;
+    <span class="hljs-keyword">case</span> value4:
+    <span class="hljs-keyword">case</span> value5:
+        construction;
+        <span class="hljs-keyword">break</span>;
+    &#x2026;
+    <span class="hljs-keyword">default</span>:
+        construction;
+        <span class="hljs-keyword">break</span>;
+}
+</code></pre>
+<h3 id="problem-animal-type"><a name="problem-animal-type" class="plugin-anchor" href="#problem-animal-type"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Animal Type</h3>
+<p>Write a program that prints the type of the animal depending on its name: </p>
+<ul>
+<li>dog -&gt; <strong>mammal</strong></li>
+<li>crocodile, tortoise, snake -&gt; <strong>reptile</strong></li>
+<li>others -&gt; <strong>unknown</strong></li>
+</ul>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tortoise</td>
+<td>reptile</td>
+<td>dog</td>
+<td>mammal</td>
+<td>elephant</td>
+<td>unknown</td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution"><a name="solution" class="plugin-anchor" href="#solution"><i class="fa fa-link" aria-hidden="true"></i></a>Solution</h4>
+<p>We can solve the problem with <strong><code>switch</code></strong>-<strong><code>case</code></strong> conditions with multiple labels in the following way:</p>
+<p><img src="assets/chapter-4-1-images/10.Animal-type-01.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#9" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#9</a>.</p>
+<h2 id="what-have-we-learned-from-this-chapter"><a name="what-have-we-learned-from-this-chapter" class="plugin-anchor" href="#what-have-we-learned-from-this-chapter"><i class="fa fa-link" aria-hidden="true"></i></a>What Have We Learned from This Chapter?</h2>
+<p>In this chapter, we learned how we can use <strong>more complex conditions</strong>, logical operators inside the condition, and <strong>nested <code>if</code>-constructions</strong>.</p>
+<h3 id="nested-conditions"><a name="nested-conditions" class="plugin-anchor" href="#nested-conditions"><i class="fa fa-link" aria-hidden="true"></i></a>Nested Conditions</h3>
+<pre><code class="lang-java"><span class="hljs-keyword">if</span> (condition1) {
+    <span class="hljs-keyword">if</span> (condition2) {    
+        <span class="hljs-comment">// body;        </span>
+    } <span class="hljs-keyword">else</span> {    
+        <span class="hljs-comment">// body;</span>
+    }
+}
+</code></pre>
+<h3 id="complex-conditions-with----and-"><a name="complex-conditions-with----and-" class="plugin-anchor" href="#complex-conditions-with----and-"><i class="fa fa-link" aria-hidden="true"></i></a>Complex Conditions with &amp;&amp;, ||, ! and ()</h3>
+<pre><code class="lang-java"><span class="hljs-keyword">if</span> ((x == left || x == right) &amp;&amp; y &lt;= top &amp;&amp; y &gt;= bottom)
+    System.out.println (&#x2026;);
+</code></pre>
+<h4 id="switch-case-conditions"><a name="switch-case-conditions" class="plugin-anchor" href="#switch-case-conditions"><i class="fa fa-link" aria-hidden="true"></i></a>Switch-Case Conditions</h4>
+<pre><code class="lang-java"><span class="hljs-keyword">switch</span> (selector) {
+    <span class="hljs-keyword">case</span> value1:
+        construction;
+        <span class="hljs-keyword">break</span>;
+    <span class="hljs-keyword">case</span> value2:
+    <span class="hljs-keyword">case</span> value3:
+        construction;
+        <span class="hljs-keyword">break</span>;
+    &#x2026;
+    <span class="hljs-keyword">default</span>:
+        construction;
+        <span class="hljs-keyword">break</span>;
+}
+</code></pre>
+<h2 id="problems-more-complex-conditions"><a name="problems-more-complex-conditions" class="plugin-anchor" href="#problems-more-complex-conditions"><i class="fa fa-link" aria-hidden="true"></i></a>Problems More Complex Conditions</h2>
+<p>Let&apos;s practice using more complex conditions. We will solve a few practical exercises.</p>
+<h3 id="problem-cinema"><a name="problem-cinema" class="plugin-anchor" href="#problem-cinema"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Cinema</h3>
+<p>In a cinema hall, the chairs are ordered in a <strong>rectangle</strong> shape in <strong>r</strong> rows and <strong>c</strong> columns. There are three types of screenings with tickets of <strong>different</strong> prices:</p>
+<ul>
+<li><strong>Premiere</strong> &#x2013; a premiere screening, with a price of <strong>12.00</strong> BGN.</li>
+<li><strong>Normal</strong> &#x2013; a standard screening, with a price of <strong>7.50</strong> BGN.</li>
+<li><strong>Discount</strong> &#x2013; a screening for children and students at a reduced price &#x2013; <strong>5.00</strong> BGN.</li>
+</ul>
+<p>Write a program that enters a <strong>type of screening</strong> (string), a number for <strong>rows</strong>, and a number for <strong>columns</strong> in the hall (integer numbers) and calculates <strong>the total income</strong> from tickets from a <strong>full hall</strong>. The result has to be printed in the same format as in the examples below &#x2013; rounded up to 2 digits after the decimal point.</p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Premiere<br>10<br>12</td>
+<td>1440.00 leva</td>
+<td>Normal<br>21<br>13</td>
+<td>2047.50 leva</td>
+</tr>
+</tbody>
+</table>
+<h4 id="hints-and-guidelines"><a name="hints-and-guidelines" class="plugin-anchor" href="#hints-and-guidelines"><i class="fa fa-link" aria-hidden="true"></i></a>Hints and Guidelines</h4>
+<p>While reading the input, we could convert the screening type into small letters (with the function <strong><code>.toLowerCase()</code></strong>). We create and initialize a variable that will store the calculated income. In another variable, we calculate the full capacity of the hall. We use a <strong><code>switch-case</code></strong> conditional statement to calculate the income according to the type of the projection and print the result on the console in the given format (look for the needed <strong>Java</strong> functionality on the internet). </p>
+<p>Sample code (parts of the code are blurred with the purpose to stimulate your thinking and solving skills):</p>
+<p><img src="assets/chapter-4-1-images/11.Cinema-01.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#10" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#10</a>.</p>
+<h3 id="problem-volleyball"><a name="problem-volleyball" class="plugin-anchor" href="#problem-volleyball"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Volleyball</h3>
+<p>Vladimir is a student, lives in Sofia, and goes to his hometown from time to time. He is very keen on volleyball, but is busy during weekdays and plays <strong>volleyball</strong> only during <strong>weekends</strong> and on <strong>holidays</strong>. Vladimir plays <strong>in Sofia</strong> every <strong>Saturday</strong> when <strong>he is not working</strong>, and <strong>he is not traveling to his hometown</strong> and also during <strong>2/3 of the holidays</strong>. He travels to his <strong>hometown h times</strong> a year, where he plays volleyball with his old friends on <strong>Sunday</strong>. Vladimir <strong>is not working 3/4 of the weekends</strong>, during which he is in Sofia. Furthermore, during <strong>leap years</strong> Vladimir plays <strong>15% more</strong> volleyball than usual. We accept that the year has exactly <strong>48 weekends</strong>, suitable for volleyball. 
+Write a program that calculates <strong>how many times Vladimir has played volleyball</strong> throughout the year. <strong>Round the result</strong> down to the nearest whole number (e.g. 2.15 -&gt; 2; 9.95 -&gt; 9).</p>
+<p>The input data is read from the console:</p>
+<ul>
+<li>The first line contains the word &#x201C;<strong>leap</strong>&#x201D; (leap year) or &#x201C;<strong>normal</strong>&#x201D; (a normal year with 365 days).</li>
+<li>The second line contains the integer <strong>p</strong> &#x2013; the count of holidays in the year (which are not Saturday or Sunday).</li>
+<li>The third line contains the integer <strong>h</strong> &#x2013; the count of weekends, in which Vladimir travels to his hometown.</li>
+</ul>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>leap<br>5<br>2</td>
+<td>45</td>
+<td>normal<br>3<br>2</td>
+<td>38</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>normal<br>11<br>6</td>
+<td>44</td>
+<td>leap<br>0<br>1</td>
+<td>41</td>
+</tr>
+</tbody>
+</table>
+<h4 id="hints-and-guidelines"><a name="hints-and-guidelines" class="plugin-anchor" href="#hints-and-guidelines"><i class="fa fa-link" aria-hidden="true"></i></a>Hints and Guidelines</h4>
+<p>As usual, we read the input data from the console and, to avoid making mistakes, we convert the text into small letters with the function <strong><code>.toLowerCase()</code></strong>. Consequently, we calculate <strong>the weekends spent in Sofia</strong>, <strong>the time for playing in Sofia</strong>, and <strong>the common playtime</strong>. At last, we check whether the year is a <strong>leap</strong>, we make additional calculations when necessary and we print the result on the console <strong>rounded down</strong> to the nearest <strong>integer</strong> (look for a <strong>Java</strong> class with such functionality).</p>
+<p>A sample code (parts of the code are blurred on purpose to stimulate independent thinking and solving skills):</p>
+<p><img src="assets/chapter-4-1-images/12.Volleyball-01.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#11" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#11</a>.</p>
+<h3 id="problem-point-in-the-figure"><a name="problem-point-in-the-figure" class="plugin-anchor" href="#problem-point-in-the-figure"><i class="fa fa-link" aria-hidden="true"></i></a>Problem: Point in The Figure</h3>
+<p>The figure consists of <strong>6 blocks with size h * h</strong>, placed as in the figure below. The lower left angle of the building is on position {0, 0}. The upper right angle of the figure is on position {<strong>2*h</strong>, <strong>4*h</strong>}. The coordinates given in the figure are for <strong>h = 2</strong>:</p>
+<p><img src="assets/chapter-4-1-images/13.Point-in-the-figure-01.png" alt=""></p>
+<p>Write a program that enters an integer <strong>h</strong> and the coordinates of a given <strong>point {x, y}</strong> (integers) and prints whether the point is inside the figure (<strong>inside</strong>), outside of the figure (<strong>outside</strong>), or on any of the borders of the figure (<strong>border</strong>).</p>
+<h4 id="sample-input-and-output"><a name="sample-input-and-output" class="plugin-anchor" href="#sample-input-and-output"><i class="fa fa-link" aria-hidden="true"></i></a>Sample Input and Output</h4>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2<br>3<br>10</td>
+<td>outside</td>
+<td>2<br>3<br>1</td>
+<td>inside</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2<br>2<br>2</td>
+<td>border</td>
+<td>2<br>6<br>0</td>
+<td>border</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2<br>0<br>6</td>
+<td>outside</td>
+<td>15<br>13<br>55</td>
+<td>outside</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15<br>29<br>37</td>
+<td>inside</td>
+<td>15<br>37<br>18</td>
+<td>outside</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15<br>-4<br>7</td>
+<td>outside</td>
+<td>15<br>30<br>0</td>
+<td>border</td>
+</tr>
+</tbody>
+</table>
+<h4 id="hints-and-guidelines"><a name="hints-and-guidelines" class="plugin-anchor" href="#hints-and-guidelines"><i class="fa fa-link" aria-hidden="true"></i></a>Hints and Guidelines</h4>
+<p>A possible logic for solving the problem (not the only correct one):</p>
+<ul>
+<li>We might split the figure into <strong>two rectangles</strong> with a common side:</li>
+</ul>
+<p align="center"><img src="assets/chapter-4-1-images/13.Point-in-the-figure-02.png"></p>
+
+<ul>
+<li>A point is <strong>outer (outside)</strong> for the figure when it is <strong>outside</strong> both of the rectangles.</li>
+<li>A point is <strong>inner (inside)</strong> for the figure if it is inside one of the rectangles (excluding their borders) or lies on their common side.</li>
+<li>In <strong>another case</strong>, the point lies on the border of the rectangle (<strong>border</strong>).</li>
+</ul>
+<p>Sample code (parts of the code are blurred to stimulate logical thinking and solving skills):</p>
+<p><img src="assets/chapter-4-1-images/13.Point-in-the-figure-03.png" alt=""></p>
+<h4 id="testing-in-the-judge-system"><a name="testing-in-the-judge-system" class="plugin-anchor" href="#testing-in-the-judge-system"><i class="fa fa-link" aria-hidden="true"></i></a>Testing in The Judge System</h4>
+<p>Test your solution here: <a href="https://judge.softuni.org/Contests/Practice/Index/653#12" target="_blank">https://judge.softuni.org/Contests/Practice/Index/653#12</a>.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="chapter-03-simple-conditions-exam-problems.html" class="navigation navigation-prev " aria-label="Previous page: 3.2. Simple Conditions – Exam Problems">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="chapter-04-complex-conditions-exam-problems.html" class="navigation navigation-next " aria-label="Next page: 4.2. More Complex Conditions – Exam Problems">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"4.1. More Complex Conditions","level":"1.8","depth":1,"next":{"title":"4.2. More Complex Conditions – Exam Problems","level":"1.9","depth":1,"path":"chapter-04-complex-conditions-exam-problems.md","ref":"chapter-04-complex-conditions-exam-problems.md","articles":[]},"previous":{"title":"3.2. Simple Conditions – Exam Problems","level":"1.7","depth":1,"path":"chapter-03-simple-conditions-exam-problems.md","ref":"chapter-03-simple-conditions-exam-problems.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","meta","anchors","expandable-chapters-small","katex","scripts","page-toc-button"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"meta":{"content":"","data":[],"name":""},"scripts":{"files":["./assets/js/repl.it-code-runner.js","./assets/js/video.js","./assets/js/top-menu.js","./assets/js/modal-popup.js"]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{},"expandable-chapters-small":{},"ga":{"configuration":"auto","token":"UA-11309924-35"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":48,"bottom":48}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"978-619-00-1402-7","variables":{},"title":"Programming Basics with Java","language":"en","gitbook":"*","description":"Free book \"Programming Basics with Java\" for absolute beginners. Covers the Java language and the Java platform, the Java compiler, the IntelliJ IDEA development environment, variables, data, calculations, conditional statements, loops, nested loops, methods and many practical exercises."},"file":{"path":"chapter-04-complex-conditions.md","mtime":"2022-11-08T17:46:54.955Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-08T17:47:41.322Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-scripts/37dd6d0da52a67342c9504f80f01b756-repl.it-code-runner.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-scripts/f1f649637203286581548c24bc2f2d3b-video.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-scripts/3a91ac420c2bbef88376e16723d59a1d-top-menu.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-scripts/99fc711fd2f2f550fcb91c9bc508874a-modal-popup.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

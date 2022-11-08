@@ -1,4 +1,4 @@
-# Free Book "Programming Basics with Java"
+# "Java програмчлалын үндэс" үнэгүй ном
 
 The free book **Programming Basics with Java** introduces readers to writing entry-level programming code (working with data, conditional statements, loops, and methods) using the Java programming language.
 

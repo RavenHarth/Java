@@ -1,0 +1,41 @@
+{
+    "title": 
+        "Programming Basics with Java",
+    "description": 
+        "Free book \"Programming Basics with Java\" for absolute beginners. Covers the Java language and the Java platform, the Java compiler, the IntelliJ IDEA development environment, variables, data, calculations, conditional statements, loops, nested loops, methods and many practical exercises.",
+    "isbn": 
+        "978-619-00-1402-7",
+    "language":
+        "en",
+    "plugins": [
+        "ga",
+        "meta",
+        "anchors",
+        "expandable-chapters-small",
+        "katex",
+        "scripts",
+        "page-toc-button"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-11309924-35"
+        },
+        "scripts": {
+            "files": [
+                "./assets/js/repl.it-code-runner.js",
+                "./assets/js/video.js",
+                "./assets/js/top-menu.js",
+                "./assets/js/modal-popup.js"
+            ]
+        }
+    },
+    "pdf": {
+        "paperSize": "a4",
+        "margin": { 
+            "top": 48,
+            "bottom": 48,
+            "left": 36,
+            "right": 36
+        }
+    }
+}

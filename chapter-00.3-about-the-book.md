@@ -5,10 +5,8 @@ The main driver and project manager for the creation of this **free open-source 
 
 In 2014, the SoftUni initiative was launched. In the beginning, these lessons had a larger range and covered more theory. In 2016 Dr. Svetlin Nakov completely reworked, updated, and simplified the whole method of teaching, strongly emphasizing practice. This is how the core of the **learning content of this book was created**.
 
-<!-- to update -->
-<!-- The free courses at SoftUni for introduction to programming are probably the most massive trainings ever conducted in South-Eastern Europe. Until 2017 the course in programming basics **was held over 150 times, in around 40 Bulgarian towns and cities** in person and multiple times online with over 50 000 participants. It was completely natural to write a **book** for the tens of thousands of participants at the SoftUni basic programming course -->
 Following the principle of **free software and free knowledge**, Svetlin Nakov led a **team of volunteers** and started this open-source project. At first, the idea was to create a **free book** for the basics of programming in the C# programming language and later extend the initiative with other similar books in various popular programming languages (like Java, JavaScript and Python).
-This book follows the structure of [Programming Basics with C#](https://csharp-book.softuni.org/).
+This book follows the structure of Programming Basics with C# (English).
 
 The project is part of the hard work of the **[Software University Foundation](https://softuni.foundation)** to create and distribute open learning content to teach software engineers and IT professionals.
 
@@ -18,7 +16,7 @@ This book is developed by a broad author's team of **volunteers** who dedicated 
 
 > **Asya Dikova-Kirova, Daniel Tsvetkov, Dimitar Dalev, Ivaylo Ivanov, Kristiyan Pamidov, Milena Georgieva, Nikolay Bankin, Petar Ivanov, Rositsa Nenova, Svetlin Nakov, Teodor Kurtev, Tsvetan Georgiev, Vaydin Kachanov, Ventsislav Petrov, Zhulieta Atanasova**
 
-The book is based on its initial C# variant ([Programming Basics with C#](https://csharp-book.softuni.org)), which is developed by a large team of authors that has a significant contribution to the current book. Below is a list of the additional book contributors (editors, translators, others):
+The book is based on its initial C# variant (Programming Basics with C# (English)), which is developed by a large team of authors that has a significant contribution to the current book. Below is a list of the additional book contributors (editors, translators, others):
 
 > Aleksander Krastev, Aleksander Lazarov, Aleksander Peev, Alen Paunov, Angel Dimitriev, Daniel Tsvetkov, Denis Milanov, Desislava Dahterova, Dimitar Tatarski, Dimitar Vlahov, Dimo Dimov, Diyan Tonchev, Elena Rogleva, Hristiyan Hristov, Hristo Hristov, Iskra Nikolova, Ivelin Kirilov, Julieta Atanasova, Kalin Primov, Kiril Kolarov, Kristiyan Pamidov, Luboslav Lubenov, Mariya Nikolova, Monika Petkova, Nikolay Bankin, Nikolay Dimov, Pavlin Petkov, Petar Ivanov, Rositsa Nenova, Rozalina Zaharieva, Ruslan Filipov, Stefka Vasileva, Svetlin Nakov, Teodor Kurtev, Tonyo Zhelev, Tsvetan Iliev, Vanya Voykova, Vasko Viktorov, Venelin Bekyarov, Ventsislav Petrov, Yanitsa Vuleva, Yoana Maksimova, Yulian Linev, Zahariya Pehlivanova, Zhivko Nedyalkov.
 

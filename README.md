@@ -26,12 +26,6 @@ The free book **Programming Basics with Java** introduces readers to writing ent
 * [11. Tricks and Hacks](chapter-11-tricks-and-hacks.md)
 * [Conclusion](chapter-12-conclusion.md)
 
-## Video Lessons
-
-Watch Part #1 of the free Java Basics video course, coming with the book: https://youtu.be/sBheEjlkcVg.
-
-Watch Part #2 of the free Java Basics video course, coming with the book: https://youtu.be/CI8XUpIEoy4.
-
 ## Download The Book
 
 Download the book "**Programming Basics with Java**" in **PDF** format:
@@ -40,15 +34,8 @@ Download the book "**Programming Basics with Java**" in **PDF** format:
 ## Book Editions
 
 This book is available in several versions in different programming languages:
-* [Programming Basics with Java (English)](https://java-book.softuni.org)
-* [Programming Basics with JavaScript (English)](https://js-book.softuni.org)
-* [Programming Basics with Python (English)](https://python-book.softuni.org)
-* [Programming Basics with C# (English)](https://csharp-book.softuni.org)
-* [Programming Basics with Java (Bulgarian)](https://java-book.softuni.bg)
-* [Programming Basics with JavaScript (Bulgarian)](https://js-book.softuni.bg)
-* [Programming Basics with Python (Bulgarian)](https://python-book.softuni.bg)
-* [Programming Basics with C# (Bulgarian)](https://csharp-book.softuni.bg)
-* [Programming Basics with C++ (Bulgarian)](https://cpp-book.softuni.bg)
+* [Programming Basics with Java (Mongolian)](https://java-book.softuni.mn)
+* [Programming Basics with Python (Mongolian)](https://python-book.softuni.mn)
 
 ## Book Details
 
@@ -60,8 +47,4 @@ Brief information about this edition:
 * ISBN: **978-619-00-1402-7** (9786190014027)
 * Edition: **Faber Publishing, Sofia, Oct 2021**
 * License: **CC-BY-SA**
-* Source code: https://github.com/SoftUni/Programming-Basics-Book-Java-EN
-
-## Free Practical Programming Course
-
-Enjoy reading and do not forget to **sign up** for the [**Practical Free Course "Programming Basics"**](https://softuni.org) coming together with this book, because programming is learned by practice, code writing and solving many, many problems, not just by reading!
+* Source code: https://github.com/SoftUni/Programming-Basics-Book-Java-MN

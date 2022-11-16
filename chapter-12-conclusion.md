@@ -39,7 +39,7 @@ Keep in mind that **to become a programmer takes a lot of effort**, writing tens
 
 #### The SoftUni Curriculum for Software Engineers
 
-The SoftUni Curriculum for Software Developers. SoftUni’s [**self-paced programs**]() are designed as a sequence of modules giving you fundamental knowledge in software development and practical skills to prepare you to work as a programmer with the latest software technologies. The classes are divided into learning theory (30%) and doing exercises and projects (70%).
+SoftUni’s programs are designed as a **sequence of modules** giving you fundamental knowledge in software development and practical skills to prepare you to work as a programmer with the latest software technologies. The classes are divided into learning **theory** (30%) and doing **exercises and projects** (70%).
 
 #### How Many Hours Per Day Does The Training Take?
 

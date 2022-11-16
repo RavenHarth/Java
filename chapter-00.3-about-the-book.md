@@ -26,18 +26,7 @@ Book cover design: Marina Shiderova.
 
 The book **Programming Basics with Java** is available for free at the following web address:
 
-<p align="center"><strong><a href="https://java-book.softuni.org">https://java-book.softuni.org</a></strong></p>
-
-The current book also has an [**official Facebook page**](https://www.facebook.com/IntroProgrammingBooks/), from which you can keep track of news about the books from the series "Basics of Programming", new editions, events, and initiatives:
-
-## Discussion Forum for Your Questions
-
-Ask your **questions about basic programming book** at the **SoftUni's Reddit channel**:
-
-<p align="center"><strong><a href="https://www.reddit.com/r/softuni/">https://www.reddit.com/r/softuni/</a></strong></p>
-
-In this discussion forum, you will get **proper response to any question associated with the content of this book** also any other programming questions. The SoftUni community is so big that you will get a response **within a few minutes**. SoftUni’s mentors also respond to questions. Note that you should post in English on both Facebook and Reddit and that you will receive answers also in English.
-If you have a specific question, for example, if you spend many hours on a certain piece of code and it doesn't work correctly, you can always **ask in the subreddit**. You will be surprised how friendly are SoftUni's forum participants.
+<p align="center"><strong><a href="https://java-book.softuni.org">https://java-book.softuni.mn</a></strong></p>
 
 ## License and Distribution
 
@@ -45,25 +34,15 @@ The book is distributed **freely** in electronic format under an open license **
 
 The book is published and distributed **on paper** by SoftUni, and you can buy a hard copy from online bookstores like Amazon.
 
-You can find the **source code** of the book in GitHub: https://github.com/SoftUni/Programming-Basics-Book-Java-EN.
+You can find the **source code** of the book in GitHub: https://github.com/SoftUni/Programming-Basics-Book-Java-MN.
 
 International Standard Book Number (ISBN): **978-619-00-1402-7**.
-
-## The Book That Helps Teachers 
-
-If you are a **teacher of programming**, informatics, or information technology or want **to teach programming**, this book gives you more
-than a well-structured learning material with many examples and tasks. **Free of charge** with the book you receive **quality educational content** for teaching in school, in the **Bulgarian language**, by the school requirements:
-
-* **Educational presentations** (PowerPoint slides) for each learning topic tailored to 45-minute hours in schools – free of charge.
-* Well-designed **tasks** for class and homework, with detailed conditions and sample entrance and exit – free of charge.
-* **An automated task and homework verification system** (Online Judge System) to be used by students, also free of charge.
-* **Video lessons** with methodological instructions from the free course for programming teachers, which is held regularly by the SoftUni Foundation.
 
 ## Reporting Bugs
 
 If you find **mistakes**, inaccuracies or bugs in the book, you can report them in the official bug tracker of the project:
 
-<p align="center"><strong><a href="https://github.com/SoftUni/Programming-Basics-Book-JAVA-EN/issues">https://github.com/SoftUni/Programming-Basics-Book-JAVA-EN/issues</a></strong></p>
+<p align="center"><strong><a href="https://github.com/SoftUni/Programming-Basics-Book-JAVA-EN/issues">https://github.com/SoftUni/Programming-Basics-Book-JAVA-MN/issues</a></strong></p>
 
 We do not promise to fix everything you send us, but we do want to **continually improve the quality** of the book, so that reported undoubted errors and all reasonable suggestions will be considered.
 

@@ -21,6 +21,7 @@ As we will explain more about later, **the programming language you start with d
 
 This book on programming for beginners is available in several programming languages (or is in the process of being adapted for them):
 * [Programming Basics with Java (Mongolian)](https://java-book.softuni.mn)
+* [Programming Basics with Python (Mongolian)](https://python-book.softuni.mn)
 
 If you prefer a different language, select it from the list above.
 

@@ -26,10 +26,10 @@ The free book **Programming Basics with Java** introduces readers to writing ent
 * [11. Tricks and Hacks](chapter-11-tricks-and-hacks.md)
 * [Conclusion](chapter-12-conclusion.md)
 
-## Download The Book
+<!-- ## Download The Book
 
 Download the book "**Programming Basics with Java**" in **PDF** format:
-* <a href="#">TODO</a>
+* <a href="#">TODO</a> -->
 
 ## Book Editions
 
